@@ -2,18 +2,17 @@ package gohi
 
 import (
 	"fmt"
-	"log"
 	"testing"
 )
 
 func TestHi(t *testing.T) {
 	s := Hi()
-	log.Println(s)
+	fmt.Println(s)
 }
 
 func TestInc(t *testing.T) {
 	n := Inc(1)
-	log.Println(n)
+	fmt.Println(n)
 }
 
 func ExampleHi() {
